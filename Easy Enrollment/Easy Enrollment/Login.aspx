@@ -373,15 +373,15 @@ input::placeholder {
   <div class="user_options-container">
     <div class="user_options-text">
       <div class="user_options-unregistered">
-        <h2 class="user_unregistered-title">Don't have an account?</h2>
-        <p class="user_unregistered-text">Banjo tote bag bicycle rights, High Life sartorial cray craft beer whatever street art fap.</p>
-        <button class="user_unregistered-signup" id="signup-button">Sign up</button>
+        <h2 class="user_unregistered-title">¿No posee una cuenta?</h2>
+        <%--<p class="user_unregistered-text">Banjo tote bag bicycle rights, High Life sartorial cray craft beer whatever street art fap.</p>--%>
+        <button class="user_unregistered-signup" id="signup-button">Registrese</button>
       </div>
 
       <div class="user_options-registered">
-        <h2 class="user_registered-title">Have an account?</h2>
-        <p class="user_registered-text">Banjo tote bag bicycle rights, High Life sartorial cray craft beer whatever street art fap.</p>
-        <button class="user_registered-login" id="login-button">Login</button>
+        <h2 class="user_registered-title">¿Posee una cuenta?</h2>
+        <%--<p class="user_registered-text">Banjo tote bag bicycle rights, High Life sartorial cray craft beer whatever street art fap.</p>--%>
+        <button class="user_registered-login" id="login-button">Inicie sesión</button>
       </div>
     </div>
     
@@ -394,12 +394,12 @@ input::placeholder {
               <input type="email" placeholder="Email" class="forms_field-input" required  />
             </div>
             <div class="forms_field">
-              <input type="password" placeholder="Password" class="forms_field-input" required />
+              <input type="password" placeholder="Contraseña" class="forms_field-input" required />
             </div>
           </fieldset>
           <div class="forms_buttons">
             <button type="button" class="forms_buttons-forgot">Forgot password?</button>
-            <input type="submit" value="Log In" class="forms_buttons-action">
+            <input type="submit" value="Iniciar Sesión" class="forms_buttons-action">
           </div>
         </form>
       </div>
@@ -410,15 +410,21 @@ input::placeholder {
             <div class="forms_field">
               <input type="text" placeholder="Full Name" class="forms_field-input" required />
             </div>
+              <div class="forms_field">
+              <input type="telephone" placeholder="Teléfono" class="forms_field-input" required />
+            </div>
             <div class="forms_field">
               <input type="email" placeholder="Email" class="forms_field-input" required />
             </div>
             <div class="forms_field">
-              <input type="password" placeholder="Password" class="forms_field-input" required />
+              <input type="password" placeholder="Contraseña" class="forms_field-input" required />
+            </div>
+              <div class="forms_field">
+              <input type="password" placeholder="Confirmar contraseña" class="forms_field-input" required />
             </div>
           </fieldset>
           <div class="forms_buttons">
-            <input type="submit" value="Sign up" class="forms_buttons-action">
+            <input type="submit" value="Registrarse" class="forms_buttons-action">
           </div>
         </form>
       </div>
