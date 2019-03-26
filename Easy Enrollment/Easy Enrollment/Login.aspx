@@ -375,13 +375,13 @@ input::placeholder {
       <div class="user_options-unregistered">
         <h2 class="user_unregistered-title">¿No posee una cuenta?</h2>
         <%--<p class="user_unregistered-text">Banjo tote bag bicycle rights, High Life sartorial cray craft beer whatever street art fap.</p>--%>
-        <button class="user_unregistered-signup" id="signup-button">Registrese</button>
+        <button class="user_unregistered-signup" id="signup-button">Registrarse</button>
       </div>
 
       <div class="user_options-registered">
         <h2 class="user_registered-title">¿Posee una cuenta?</h2>
         <%--<p class="user_registered-text">Banjo tote bag bicycle rights, High Life sartorial cray craft beer whatever street art fap.</p>--%>
-        <button class="user_registered-login" id="login-button">Inicie sesión</button>
+        <button class="user_registered-login" id="login-button">Iniciar sesión</button>
       </div>
     </div>
     
